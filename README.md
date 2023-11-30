@@ -11,14 +11,14 @@
 - [VQ-RealLQ](#VQ-RealLQ)
 
 ## <a name="update"></a>Update
-- **2023.11.1**: This repo is released.
+- **2023.11.29**: This repo is released.
 
 
 
 ## <a name="installation"></a> Installation (Environment Preparation)
 
 ```shell
-git clone
+git clone git@github.com:Kiteretsu77/VCISR-official.git
 cd VCISR
 
 # Create conda env
@@ -45,7 +45,7 @@ sudo apt install ffmpeg
 2. Train: Please check **opt.py** to setup parameters you want\
     **Step1** (Net L1 loss training): Run 
     ```shell
-    python train_code/train.py'  
+    python train_code/train.py 
     ```
     The model weights will be inside the folder 'saved_models'
 
@@ -73,18 +73,25 @@ We highly recommend users to checkout this repository if they want extreme high 
 
 
 ## <a name="VQ-RealLQ"></a> VQ-RealLQ:
-The small image inference dataset will be released soon. If you need it earlier, you can contact: boyangwa@umich.edu.
+The small image inference dataset will be released soon. If you need it earlier, you can contact: hikaridawn412316@gmail.com.
 
 
 
 ## Citation
 Please cite us if our work is useful for your research.
+```
+@article{wang2023vcisr,
+  title={VCISR: Blind Single Image Super-Resolution with Video Compression Synthetic Data},
+  author={Wang, Boyang and Liu, Bowen and Liu, Shiyu and Yang, Fengyu},
+  journal={arXiv preprint arXiv:2311.00996},
+  year={2023}
+}
+```
 
 
 ## License
 This project is released under the [GPL 3.0 license](LICENSE).
 
-
 ## Contact
-If you have any questions, please feel free to contact with me at hikaridawn412316@gmail.com or boyangwa@umich.edu
+If you have any questions, please feel free to contact with me at hikaridawn412316@gmail.com or boyangwa@umich.edu.
 
