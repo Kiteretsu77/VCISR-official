@@ -8,7 +8,6 @@ tmp_imgs
 runs/
 runs_last/
 saved_models/*
-saved_models/
 pre_trained/
 save_log/*
 
@@ -25,4 +24,5 @@ save_log/*
 *.csv
 
 !requirements.txt
+!saved_models/*.md
 !LICENSE.txt

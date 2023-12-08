@@ -196,7 +196,7 @@ def test(generator, dataset_lr_paths, dataset_gen_paths):
 def load_generator(weight_path):
     ''' load the generator based on our exp_name, model_name, and weight_name
     Args:
-        weith_path (str): the experiment weight path
+        weight_path (str): the experiment weight path
     Returns:
         generator (torch): the generator instance of the model
     '''
@@ -214,10 +214,10 @@ def load_generator(weight_path):
 
 if __name__ == "__main__":
     # Fundamental setting
-    weight_path = "weights/4x_VCISR_generator.pth"    # The directory you store all   
+    weight_path = "saved_models/4x_VCISR_generator.pth"    # The directory you store all   
     dataset_lr_paths = [
-        # "PUT YOUR INPUT DATASETS HERE",
-        "../VC-RealLQ_39/", 
+        # "PUT YOUR INPUT TESTING DATASETS HERE",
+        "datasets/VC-RealLQ_39/", 
     ]
     dataset_gen_paths = [
         # "PUT YOUR STORE PATH HERE (corresponding to each dataset_lr_paths)", 
@@ -227,7 +227,7 @@ if __name__ == "__main__":
 
 
     # Inference
-    generator = load_generator(weight_path)
+    generator = load_generator(weight_path)     # The default model we use now is GRL (https://github.com/ofsoundof/GRL-Image-Restoration)
     test(generator, dataset_lr_paths, dataset_gen_paths)
 
 

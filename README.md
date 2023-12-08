@@ -11,8 +11,8 @@
 - [VQ-RealLQ](#VQ-RealLQ)
 
 ## <a name="update"></a>Update
+- **2023.12.08**: This pre-trained weight is released.
 - **2023.11.29**: This repo is released.
-
 
 
 ## <a name="installation"></a> Installation (Environment Preparation)
@@ -60,17 +60,18 @@ sudo apt install ffmpeg
 
 
 ## <a name="inference"></a> Inference:
-1. **Setup the configuration of test_code/inference.py after line 215**. 
+1. Download the weight from https://drive.google.com/file/d/1Mbrw1ji_qcOteuSOkZqVgSEda_PQ40tA/view?usp=drive_link  and put them in "saved_models" folder
+2. **Setup the configuration of test_code/inference.py after line 215**. 
 2. Then, Execute 
     ```shell
     python test_code/inference.py
     ```
 
 ## <a name="Anime"></a> Anime:
-We also extend our methods on the Anime SR task with private Anime datasets. 
-You can also find a pre-built **highly accelrated** Anime VSR inference repository from: https://github.com/Kiteretsu77/FAST_Anime_VSR. \
-We highly recommend users to checkout this repository if they want extreme high speed in inference.
-
+We also extend our methods on the Anime Restoration and Super-Resolution task with public and private Anime datasets. \
+You can also find a pre-built **highly accelerated** Anime VSR inference repository from: https://github.com/Kiteretsu77/FAST_Anime_VSR. \
+We highly recommend users to checkout this repository by myself if you want extreme high speed in inference.
+In the future, we will release more details related to the Anime extension and versatile pre-trained weights.
 
 ## <a name="VQ-RealLQ"></a> VQ-RealLQ:
 The small image inference dataset will be released soon. If you need it earlier, you can contact: hikaridawn412316@gmail.com.
