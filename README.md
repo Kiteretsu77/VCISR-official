@@ -1,5 +1,5 @@
 # VCISR: Blind Single Image Super-Resolution with Video Compression Synthetic Data (WACV 2024)
-
+> [![paper](https://img.shields.io/badge/Paper-<COLOR>.svg)](https://openaccess.thecvf.com/content/WACV2024/papers/Wang_VCISR_Blind_Single_Image_Super-Resolution_With_Video_Compression_Synthetic_Data_WACV_2024_paper.pdf)<br>
 :star:If you like VCISR, please help star this repo. Thanks!:hugs:
 
 ## :book:Table Of Contents
