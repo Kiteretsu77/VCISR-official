@@ -11,7 +11,7 @@
 - [VQ-RealLQ](#VQ-RealLQ)
 
 ## <a name="update"></a>Update
-- **2023.12.08**: This pre-trained weight is released.
+- **2023.12.08**: The pre-trained weight is released.
 - **2023.11.29**: This repo is released.
 
 
