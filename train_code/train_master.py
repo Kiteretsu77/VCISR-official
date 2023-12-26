@@ -86,7 +86,7 @@ class train_master(object):
             param_group['lr'] = self.learning_rate
         
         if self.has_discriminator:
-            print("We didn't yet handle discriminator, but we think that it should be necessary")
+            print("For the Learning Rate Decay, we didn't yet handle discriminator, but we think that it should be necessary")
 
         assert(self.learning_rate == self.optimizer_g.param_groups[0]['lr'])
 
