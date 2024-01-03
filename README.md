@@ -69,9 +69,11 @@ sudo apt install ffmpeg
 
 ## <a name="Anime"></a> Anime:
 We also extend our methods on the Anime Restoration and Super-Resolution task with public and private Anime datasets. \
-You can also find a pre-built **highly accelerated** Anime VSR inference repository from: https://github.com/Kiteretsu77/FAST_Anime_VSR. \
-We highly recommend users to checkout this repository by myself if you want extreme high speed in inference.
-In the future, we will release more details related to the Anime extension and versatile pre-trained weights.
+You can also find a pre-built **highly accelerated** Anime SR inference repository from: \
+https://github.com/Kiteretsu77/Anime_SR_Restoration  (A regular inference tool)   or \
+https://github.com/Kiteretsu77/FAST_Anime_VSR  (An accelerated processing repository).\
+These two repositories are RRDB-based network training (instead of GRL). \
+In the future, we will release more details related to the Anime extension and versatile pre-trained weights for different models, such as GRL.
 
 ## <a name="VQ-RealLQ"></a> VQ-RealLQ:
 The small image inference dataset will be released soon. If you need it earlier, you can contact: hikaridawn412316@gmail.com.
