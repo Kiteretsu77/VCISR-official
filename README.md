@@ -96,5 +96,5 @@ Please cite us if our work is useful for your research.
 This project is released under the [GPL 3.0 license](LICENSE).
 
 ## Contact
-If you have any questions, please feel free to contact with me at hikaridawn412316@gmail.com or boyangwa@umich.edu.
+If you have any questions, please feel free to contact me at hikaridawn412316@gmail.com or boyangwa@umich.edu.
 
